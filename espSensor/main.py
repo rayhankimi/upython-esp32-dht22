@@ -4,10 +4,10 @@ import dht
 import network
 import urequests as requests
 
-firebase_url = 'https://upy-uas-default-rtdb.asia-southeast1.firebasedatabase.app/'
-firebase_secret = 'amDEG02GQmM7rPADR0SZd5OprvFCYsyCtObLF834'
+firebase_url = 'Your Firebase URL'
+firebase_secret = 'Your Firebase Secret'
 
-def initWifi(ssid="Anak kos",password="22445588") -> None:
+def initWifi(ssid="Your SSID",password="Your WiFi Password") -> None:
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
     wlan.connect(ssid, password)
@@ -19,10 +19,6 @@ def initWifi(ssid="Anak kos",password="22445588") -> None:
 def initDHT() -> dht.DHT22:
     #Inisialisasi pin pak gung
     sensor = dht.DHT22(Pin(14))
-    
-    #Inisialisasi wifi pak gung
-    ssid = "Anak kos"
-    password = "22445588"
     
     
     return sensor
