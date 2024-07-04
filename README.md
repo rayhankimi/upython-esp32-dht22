@@ -20,5 +20,5 @@
 ### ESP - Sensor :
 #### FLash all file on espsensor folder
 
-
+# Credits to respective creator of i2c_lcd.py and lcd_api.py. (I dont write those code)
 
