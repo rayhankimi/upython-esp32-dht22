@@ -4,7 +4,6 @@ from i2c_lcd import I2cLcd
 import urequests
 import network
 
-
 I2C_ADDR = 0x27  
 I2C_SDA_PIN = 21  
 I2C_SCL_PIN = 22
