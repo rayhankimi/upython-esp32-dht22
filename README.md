@@ -6,6 +6,7 @@
 ### - 2 ESP32 DEVKIT (Or any similiar one) 
 ### - 1 DHT22
 ### - 1 I2C LCD
+### - 1 Buzzer / Any Indicator (Optional)
 
 ## Techs Used : 
 ### - Firebase RTDB
